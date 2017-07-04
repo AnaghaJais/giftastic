@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>giftastic</title>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+ 
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+  <div class="container">    
+    <!-- We'll be dumping our JSON contents in here -->
+    <div id="buttons-view"></div>
+    <div id="gif-image-view"></div>
+
+    <!-- This form will be where users input data about the movies -->
+    <form id="bird-form">
+      <label for="bird-input" id="label">Add a bird</label><br>
+      <input type="text" id="bird-input"><br>
+      <!-- This button will trigger our AJAX call -->
+      <input id="find-birds" type="submit" value="Submit">
+    </form>
+  </div>
+  <script src="./assets/javascript/app.js" charset="utf-8"></script>
+</body>
+</html>
+    
+
+    
